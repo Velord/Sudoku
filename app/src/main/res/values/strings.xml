@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Sudoku</string>
+    <string name="New_Game">New Game</string>
+    <string name="difficultyInsane">Insane</string>
+    <string name="difficultyHard">Hard</string>
+    <string name="difficultyNormal">Normal</string>
+    <string name="difficultyEasy">Easy</string>
+    <string name="userWinner">You Win</string>
+    <string name="fragmentSettings">Settings</string>
+    <string name="fragmentGameRules">Game Rules</string>
+    <string name="fragmentStatistics">Statistics</string>
+    <string name="fragmentHelp">Help</string>
+    <string name="reset_stat">Reset Statistic</string>
+    <string name="bt_1">1</string>
+    <string name="bt_2">2</string>
+    <string name="bt_3">3</string>
+    <string name="bt_4">4</string>
+    <string name="bt_5">5</string>
+    <string name="bt_6">6</string>
+    <string name="bt_7">7</string>
+    <string name="bt_8">8</string>
+    <string name="bt_9">9</string>
+    <string name="gamerules">
+A standard Sudoku puzzle consists of a grid of 9 blocks. Each block contains 9 boxes arranged in 3 rows and 3 columns. There is only one valid solution to each Sudoku puzzle.
+The only way the puzzle can be considered solved correctly is when all 81 boxes contain numbers and the other Sudoku rules have been followed.
+When you start a game of Sudoku, some blocks will be pre-filled for you. You cannot change these numbers in the course of the game.
+Each column , row and block   must contain all of the numbers 1 through 9 and no two numbers in the same column of a Sudoku puzzle can be the same.
+</string>
+    <string name="bt_next">Next</string>
+    <string name="bt_skip">Skip</string>
+    <string name="bt_fragment_New_game_Reset">Reset</string>
+    <string name="fragment_New_game_this_game">This game will be lost</string>
+    <string name="fragment_style_choose">Choose style</string>
+    <string name="fragment_style_ok">Ok</string>
+</resources>

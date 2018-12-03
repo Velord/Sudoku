@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3f51b5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="background_toolbar">#ffffff</color>
+    <color name="background_toolbar_dark">#000000</color>
+    <color name="background_grid_dark">#20202b</color>
+
+    <color name="bt_color">#17179f</color>
+    <color name="bt_color_on_pause">#8484ce</color>
+    <color name="bt_color_in_bottom">#17179f</color>
+    <color name="bt_color_in_bottom_dark">#3b3bcc</color>
+    <color name="bt_color_in_bottom_on_pause">#8484ce</color>
+    <color name="bt_color_in_bottom_on_pause_dark">#8484ce</color>
+
+    <color name="currentcell">#90caf9</color>
+    <color name="currentcelldark">#09497b</color>
+
+    <color name="gamerulestext">#353535</color>
+
+    <color name="background_game">#ffffff</color>
+    <color name="background_game_yellow">#efe9d5</color>
+    <color name="background_game_dark">#161616</color>
+
+    <color name="samevalue">#f7bec0</color>
+    <color name="samevaluedark">#94373a</color>
+
+    <color name="cellforcheck">#dbdfe7</color>
+    <color name="cellforcheck_yellow">#e9df8c</color>
+    <color name="cellforcheck_dark">#0d1135</color>
+
+    <color name="samevalueotherfield">#bac0cc</color>
+    <color name="samevalueotherfield_yellow">#a3a7ae</color>
+    <color name="samevalueotherfield_dark">#000000</color>
+    </resources>

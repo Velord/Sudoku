@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/game_rules_container"
+    android:background="@color/background_game"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/text_game_rules"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_gravity="fill"
+        app:srcCompat="@drawable/game_rules_first_screenshot" />
+
+    <TextView
+        android:id="@+id/text_game_rules"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/gamerules"
+        android:textAllCaps="false"
+        android:textColor="@color/gamerulestext"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/bt_skip"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        style="?android:attr/borderlessButtonStyle"
+        android:id="@+id/bt_skip"
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:background="@color/background_toolbar"
+        android:text="@string/bt_skip"
+        android:textColor="@color/bt_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        style="?android:attr/borderlessButtonStyle"
+        android:id="@+id/bt_next"
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:background="@color/background_toolbar"
+        android:text="@string/bt_next"
+        android:textColor="@color/bt_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</android.support.constraint.ConstraintLayout>

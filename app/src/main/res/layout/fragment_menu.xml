@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/menucontainer"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:background="@drawable/border"
+        android:padding="0.65dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <Button
+            android:id="@+id/bt_settings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/background_toolbar"
+            android:text="@string/fragmentSettings"
+            android:textColor="@color/bt_color_on_pause"
+            android:textAllCaps="false"
+            android:typeface="normal" />
+
+        <Button
+            android:id="@+id/bt_rules"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/bt_color_on_pause"
+            android:background="@color/background_toolbar"
+            android:text="@string/fragmentGameRules"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/bt_statistics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/background_toolbar"
+            android:text="@string/fragmentStatistics"
+            android:textAllCaps="false"
+            android:textColor="@color/bt_color_on_pause" />
+
+        <Button
+            android:id="@+id/bt_Help"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/bt_color_on_pause"
+            android:background="@color/background_toolbar"
+            android:text="@string/fragmentHelp"
+            android:textAllCaps="false" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

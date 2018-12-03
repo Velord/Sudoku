@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/main_fragment_new_game_layout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/border"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:id="@+id/textView2"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/background_toolbar"
+            android:gravity="center"
+            android:text="@string/fragment_New_game_this_game"
+            android:textAllCaps="false"
+            android:textColor="@color/bt_color_on_pause"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/bt_fragment_easy"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/background_toolbar"
+            android:text="@string/difficultyEasy"
+            android:textAllCaps="false"
+            android:textColor="@color/bt_color_on_pause"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/bt_fragment_normal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/background_toolbar"
+            android:text="@string/difficultyNormal"
+            android:textAllCaps="false"
+            android:textColor="@color/bt_color_on_pause"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/bt_fragment_hard"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/background_toolbar"
+            android:text="@string/difficultyHard"
+            android:textAllCaps="false"
+            android:textColor="@color/bt_color_on_pause"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/bt_fragment_insane"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/background_toolbar"
+            android:text="@string/difficultyInsane"
+            android:textAllCaps="false"
+            android:textColor="@color/bt_color_on_pause"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/bt_fragment_reset"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/background_toolbar"
+            android:text="@string/bt_fragment_New_game_Reset"
+            android:textAllCaps="false"
+            android:textColor="@color/bt_color_on_pause"
+            android:textSize="20sp" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

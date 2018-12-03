@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout_statistic"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/statistics_layout"
+        android:layout_width="0dp"
+        android:layout_height="62dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/bt_easy"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/background_toolbar"
+            android:text="@string/difficultyEasy"
+            android:textColor="@color/bt_color" />
+
+        <Button
+            android:id="@+id/bt_normal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/background_toolbar"
+            android:text="@string/difficultyNormal"
+            android:textColor="@color/bt_color" />
+
+        <Button
+            android:id="@+id/bt_hard"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/background_toolbar"
+            android:text="@string/difficultyHard"
+            android:textColor="@color/bt_color" />
+
+        <Button
+            android:id="@+id/bt_insane"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/background_toolbar"
+            android:text="@string/difficultyInsane"
+            android:textColor="@color/bt_color" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/handlestattextview"
+        android:layout_width="0dp"
+        android:layout_height="300dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.234"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/statistics_layout">
+
+        <TextView
+            android:id="@+id/game_played"
+            android:layout_width="179dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text=""
+            android:textColor="@color/gamerulestext" />
+
+        <TextView
+            android:id="@+id/best_time"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text=""
+            android:textColor="@color/gamerulestext" />
+
+        <TextView
+            android:id="@+id/avgtime"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text=""
+            android:textColor="@color/gamerulestext" />
+
+        <TextView
+            android:id="@+id/bestseriesofwin"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text=""
+            android:textColor="@color/gamerulestext" />
+
+        <TextView
+            android:id="@+id/game_defeat"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text=""
+            android:textColor="@color/gamerulestext" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bt_reset_stat"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/background_toolbar"
+        android:text="@string/reset_stat"
+        android:textColor="@color/bt_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</android.support.constraint.ConstraintLayout>
